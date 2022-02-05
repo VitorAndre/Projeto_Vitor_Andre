@@ -1,33 +1,33 @@
-public class A {
-    public int A1;
-    public float A2;
+public class B {
+    public int B1;
+    public float B2;
 
-    A(int a1, float a2) {
-        this.A1 = a1;
-        this.A2 = a2;
+    B(int b1, float b2) {
+        this.B1 = b1;
+        this.B2 = b2;
     }
 
-    public int getA1() {
-        return this.A1;
+    public int getB1() {
+        return this.B1;
     }
 
-    public float getA2() {
-        return this.A2;
+    public float getB2() {
+        return this.B2;
     }
 
-    public void setA1(int a1) {
-        this.A1 = a1;
+    public void setB1(int b1) {
+        this.B1 = b1;
     }
 
-    public void setA2(int a2) {
-        this.A2 = a2;
+    public void setB2(int b2) {
+        this.B2 = b2;
     }
 
-    public void MA1() {
-        System.out.print("MA1");
+    public void MB1() {
+        System.out.print("MB1");
     }
 
-    public void MA2() {
-        System.out.print("MA2");
+    public void MB2() {
+        System.out.print("MB2");
     }
 }
