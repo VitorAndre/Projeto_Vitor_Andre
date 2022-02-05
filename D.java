@@ -34,5 +34,8 @@ public class D {
     public void MD3() {
         System.out.print("MD3");
     }
-
+    
+    public void MD4() {
+        System.out.print("MD4");
+    }
 }
